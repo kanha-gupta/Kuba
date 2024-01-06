@@ -58,6 +58,7 @@ This completes the installation process. You are now ready to use Kuba CLI to in
 **Kuba** provides the main command `kuba` for managing your Kubernetes minikube cluster. Here are some of the key functionalities it offers:
 
 ## Creating Kubernetes Resources
+![Screenshot (570)](https://github.com/kanha-gupta/Kuba/assets/92207457/2069bb4d-e71f-452c-b8b6-eb82a3bc4b17)
 
 You can use the `create` subcommand to create Kubernetes resources from a YAML file.
 
@@ -102,6 +103,7 @@ kuba details namespace --ns=<namespace_name>
 ## Listing All Resources
 
 You can list all resources or specific types of resources using the `show` subcommand.
+![Screenshot (571)](https://github.com/kanha-gupta/Kuba/assets/92207457/7bb89c64-a78f-43b4-bc7a-88d4e9161951)
 
 ```bash
 kuba show all --ns=<namespace>
